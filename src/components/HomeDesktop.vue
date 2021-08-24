@@ -1,19 +1,6 @@
 <template>
   <div
-    class="
-      container
-      grid-flow-row grid-cols-1
-      mx-5
-      my-10
-      md:grid md:grid-cols-3
-      md:left-1/2
-      md:ml-[-384px]
-      lg:ml-[-512px]
-      xl:ml-[-640px]
-      auto-rows-fr
-      fixed
-      z-50
-    "
+    class="container fixed z-50 grid-flow-row grid-cols-1 mx-5 my-10 md:grid md:grid-cols-3 md:-translate-x-1/2 md:left-1/2 auto-rows-fr"
   >
     <div class="col-span-3 max-h-40">
       <Header />
