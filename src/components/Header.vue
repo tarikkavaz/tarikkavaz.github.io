@@ -51,7 +51,11 @@
       <h3 class="text-xl text-gray-500 transition duration-700 ease-in-out sm:text-3xl dark:text-gray-100">Designer & Coder</h3>
     </div>
     <div class="z-50 flex items-center justify-center h-full col-span-2 mt-5 md:col-span-1 md:mt-0">
-      <div class="grid grid-cols-6 gap-6">
+      
+      <div class="grid grid-cols-6 gap-x-6 gap-y-1">
+        <div class="h-12 col-span-6">
+          <DarkMode/>
+        </div>
         <a href="mailto:hello@tarikkavaz.com" class="has-tooltip">
           <span class="tooltip"
             ><div class="tool-arrow"></div>
@@ -177,10 +181,26 @@
             ></path>
           </svg>
         </a>
+        
       </div>
     </div>
   </div>
 </template>
+
+<script>
+import DarkMode from './DarkMode.vue'
+
+export default {
+  components: {
+    DarkMode,
+  },
+  methods: {
+
+  }
+  
+};
+</script>
+
 
 <style scoped>
 .icon {
