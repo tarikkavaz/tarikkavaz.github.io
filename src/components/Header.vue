@@ -43,8 +43,8 @@
       </svg>
     </div>
     <div class="flex flex-col items-center justify-center h-full">
-      <h1 class="text-3xl font-thin text-gray-400 transition duration-700 ease-in-out sm:text-5xl dark:text-gray-200">
-        TA<span class="font-medium text-gray-800 dark:text-gray-400"
+      <h1 class="text-3xl font-thin text-gray-400 transition duration-700 ease-in-out sm:text-5xl dark:text-gray-300">
+        TA<span class="font-medium text-gray-800 dark:text-gray-500"
           >RI<span class="font-bold text-black transition duration-700 ease-in-out dark:text-gray-800">KK</span>AV</span
         >AZ
       </h1>
