@@ -1,7 +1,6 @@
 <template>
-  <div class="w-full p-4 text-center md:fixed md:bottom-3">
-    <p class="text-xs">Keep it simple</p>
-    <p class="flex justify-center">
+  <div class="fixed w-full bottom-3">
+    <p class="p-0 text-xs text-center dark:text-white max-h-12">
       <a href="https://tailwindcss.com/" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" class="logo">
           <defs><linearGradient x1="0" y1="-21.333" y2="85.333" id="A" x2="64" gradientUnits="userSpaceOnUse">
@@ -27,11 +26,10 @@
 </template>
 
 <style scoped>
-p {
-  @apply dark:text-white;
+a {
+  @apply w-10 h-16 text-center inline-block;
 }
-
 .logo {
-  @apply scale-35 w-16 h-16 grayscale hover:grayscale-0;
+  @apply w-16 h-16 scale-35 grayscale hover:grayscale-0;
 }
 </style>
