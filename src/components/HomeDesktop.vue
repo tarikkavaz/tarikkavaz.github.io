@@ -37,10 +37,12 @@
     <ScrollDownIcon />
   </div>
   <ScrollIndicator />
+  <Footer />
 </template>
 
 <script>
 import Header from "./Header.vue";
+import Footer from "./Footer.vue";
 import ScrollDownIcon from "./ScrollDownIcon.vue";
 import ScrollIndicator from "./ScrollIndicator.vue";
 import HelloWorld from "./content/HelloWorld.vue";
@@ -51,6 +53,7 @@ export default {
     ScrollDownIcon,
     ScrollIndicator,
     Header,
+    Footer,
     HelloWorld,
     DesignAndCoding,
     Clients,

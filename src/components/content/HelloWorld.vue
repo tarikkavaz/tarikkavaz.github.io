@@ -1,7 +1,7 @@
 <template>
   <p class="mb-4 text-3xl font-bold">Hello World,</p>
   <p>
-    I'm a Designer & Coder;
+    I'm <span class="font-semibold">Tarık Kavaz</span>, Designer & Coder;
     <span class="text-base"> Movie, Music & Animal Lover</span>.
   </p>
 

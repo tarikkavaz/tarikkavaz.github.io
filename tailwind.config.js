@@ -8,6 +8,9 @@ module.exports = {
         dosis: "'Dosis', sans-serif",
         titillium: "'Titillium Web', sans-serif"
       },
+      scale: {
+        '35': '.35'
+      },
       colors: {
         dotred: '#f16667',
         dotyellow: '#ffce34',
