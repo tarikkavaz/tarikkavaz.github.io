@@ -9,7 +9,9 @@ module.exports = {
         titillium: "'Titillium Web', sans-serif"
       },
       scale: {
-        '35': '.35'
+        '25': '.25',
+        '30': '.30',
+        '35': '.35',
       },
       colors: {
         dotred: '#f16667',

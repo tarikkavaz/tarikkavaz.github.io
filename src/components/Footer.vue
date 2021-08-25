@@ -15,11 +15,7 @@
         <path d="M39.333 5.5L32 18.333 24.667 5.5H12.833L32 38.833 51.167 5.5z" fill="#35495e"/>
         </svg>
       </a>
-      <a href="https://code.visualstudio.com/" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" class="logo" fill="#007acc">
-        <path d="M48 0v55L0 47.84 48 64l16-6.66V6.65zM31.2 9.36L16.5 23.9l-8.85-6.67L4 18.45l9 8.9-9 8.9 3.65 1.22 8.85-6.67 14.7 14.53L40 41.6V13.1zm0 10.37V35l-10.1-7.65z"/>
-        </svg>
-      </a>
+      
     </p>
     
   </div>
@@ -30,6 +26,6 @@ a {
   @apply w-10 h-16 text-center inline-block;
 }
 .logo {
-  @apply w-16 h-16 scale-35 grayscale hover:grayscale-0;
+  @apply w-16 h-16 scale-30 grayscale hover:grayscale-0;
 }
 </style>
