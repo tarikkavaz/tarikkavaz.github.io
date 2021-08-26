@@ -1,5 +1,5 @@
 <template>
-  <p class="mb-4 text-3xl font-bold">Hello World,</p>
+  <h3 class="mb-4 text-3xl font-bold">Hello World,</h3>
   <p>
     I'm <span class="font-semibold">Tarık Kavaz</span>, Designer & Coder;
     <span class="text-base"> Movie, Music & Animal Lover</span>.
@@ -22,9 +22,7 @@
 </template>
 
 <style scoped>
-p, li {
-  @apply transition duration-700 ease-in-out text-gray-800 dark:text-gray-100;
-}
+
 .tag {
   @apply inline-block px-2 py-1 mt-3 ml-5 text-xs text-white bg-dotgreen rounded shadow-md;
 }

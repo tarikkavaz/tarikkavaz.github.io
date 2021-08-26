@@ -1,5 +1,5 @@
 <template>
-  <p class="mb-4 text-3xl font-bold">Design and Coding</p>
+  <h3 class="mb-4 text-3xl font-bold">Design and Coding</h3>
   <ul class="pl-5 list-disc">
     <li>
       Design
@@ -51,9 +51,6 @@
 </template>
 
 <style scoped>
-p, li {
-  @apply transition duration-700 ease-in-out text-gray-800 dark:text-gray-100;
-}
 .tag {
   @apply inline-block px-2 py-1 ml-2 text-xs text-black bg-dotyellow rounded shadow-md;
 }

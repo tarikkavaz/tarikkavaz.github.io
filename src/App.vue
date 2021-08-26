@@ -57,4 +57,7 @@
   body {
     @apply transition duration-700 ease-in-out bg-fixed bg-gradient-to-b from-gray-50 to-gray-300 dark:from-gray-600 dark:to-gray-900;
   }
+  h3, p, li {
+  @apply transition duration-700 ease-in-out text-gray-800 dark:text-gray-100;
+}
 </style>

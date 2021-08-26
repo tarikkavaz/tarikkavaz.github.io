@@ -48,7 +48,7 @@
           >RI<span class="font-bold text-black transition duration-700 ease-in-out dark:text-gray-800">KK</span>AV</span
         >AZ
       </h1>
-      <h3 class="text-xl text-gray-500 transition duration-700 ease-in-out sm:text-3xl dark:text-gray-100">Designer & Coder</h3>
+      <h2 class="text-xl text-gray-500 transition duration-700 ease-in-out sm:text-3xl dark:text-gray-100">Designer & Coder</h2>
     </div>
     <div class="z-50 flex items-center justify-center h-full col-span-2 mt-5 md:col-span-1 md:mt-0">
       
