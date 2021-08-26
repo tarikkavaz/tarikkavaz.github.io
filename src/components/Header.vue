@@ -206,16 +206,4 @@ export default {
 .icon {
   @apply transition duration-700 ease-in-out w-6 h-6 hover:fill-current text-gray-900 dark:text-gray-100;
 }
-.tooltip {
-  @apply transition duration-700 ease-in-out opacity-0 absolute p-2 mt-8 font-bold text-white bg-black rounded shadow-md transition ease-in-out duration-700 dark:text-black dark:bg-white;
-}
-.has-tooltip {
-  @apply relative;
-}
-.has-tooltip:hover .tooltip {
-  @apply opacity-100 transition ease-in-out duration-700;
-}
-.tool-arrow {
-  @apply transition duration-700 ease-in-out absolute w-3 h-3 -top-1 rotate-45 bg-black dark:bg-white;
-}
 </style>

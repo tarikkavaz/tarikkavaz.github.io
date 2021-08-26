@@ -1,10 +1,12 @@
 <template>
   
-    <div class="grid justify-end ">
+    <div class="grid justify-end">
       <span ref="toggleDark" 
       class="flex justify-end w-20 h-10 cursor-pointer" @click="toggleDarkMode">
-      <svg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='moon' class='themeicon' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path fill='currentColor' d='M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z'></path></svg>
+        
+      <svg  class='themeicon' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path fill='currentColor' d='M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z'></path></svg>
       </span>
+      
     </div>
   
 </template>
@@ -19,7 +21,7 @@
           htmlElm.classList.remove("dark");
           localStorage.theme = "light";
           
-          this.$refs.toggleDark.innerHTML = "<span class='themetext'>Dark</span> <svg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='moon' class='themeicon' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path fill='currentColor' d='M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z'></path></svg>";
+          this.$refs.toggleDark.innerHTML = "<span class='themetext'>Dark</span><svg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='moon' class='themeicon' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path fill='currentColor' d='M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z'></path></svg>";
         };
         const setDark = () => {
           htmlElm.classList.add("dark");
@@ -39,6 +41,13 @@
     },
     mounted() {
       this.toggleDarkMode(localStorage.theme);
+      this._keyListener = function(e) {
+          if (e.key === "d" ) {
+              e.preventDefault(); 
+              this.toggleDarkMode();
+          }
+      };
+      document.addEventListener('keydown', this._keyListener.bind(this));
     },
     created() {
         if (!("theme" in localStorage)) localStorage.theme = "dark";
@@ -47,11 +56,13 @@
 
 </script>
 
-<style>
+<style >
+
   .themeicon {
     @apply transition duration-700 ease-in-out w-5 h-5 hover:fill-current text-gray-900 dark:text-gray-100;
   }
   .themetext {
     @apply transition duration-700 ease-in-out mr-2 dark:text-gray-100 text-sm;
   }
+  
 </style>

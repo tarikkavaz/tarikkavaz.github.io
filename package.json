@@ -8,11 +8,8 @@
     "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.4.0",
-    "aos": "^2.3.4",
     "core-js": "^3.6.5",
     "node-sass": "^4.14.1",
-    "rsynced": "^1.3.0",
     "sass-loader": "^10.1.1",
     "skrollr": "^0.6.26",
     "vue": "^3.0.0"
