@@ -1,19 +1,33 @@
 <template>
-  <a :href="link" target="_blank">
+  <!-- <a :href="link" target="_blank">
     <span class="tooltip"
       ><div class="tool-arrow"></div>
       {{tooptip}}
     </span>
     <slot/>
-  </a>
+  </a> -->
+  <tippy :content="tooptip" :placement="location" :theme="css" >
+    <a :href="link" target="_blank">
+    <slot/>
+    </a>
+  </tippy>
 </template>
 
 <script> 
+
+
 export default {
   props: {
     link: {
+      type: String
+    },
+    css: {
       type: String,
-      default: "#"
+      default: "light"
+    },
+    location: {
+      type: String,
+      default: "bottom"
     },
     tooptip: {
       type: String,
@@ -23,8 +37,12 @@ export default {
 }
 </script>
 
-<style scoped>
-  a {
+<style>
+
+.tippy-content {
+  @apply text-black dark:text-white;
+}
+  /* a {
     @apply relative;
   }
   .tooltip {
@@ -35,5 +53,5 @@ export default {
   }
   .tool-arrow {
     @apply transition duration-700 ease-in-out absolute w-3 h-3 -top-1 rotate-45 bg-black dark:bg-white;
-  }
+  } */
 </style>
