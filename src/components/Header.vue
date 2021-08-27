@@ -98,7 +98,7 @@
             ></path>
           </svg>
         </ButtonWithTooltip>
-        <ButtonWithTooltip link="ttps://twitter.com/tarikkavaz" tooptip="Twitter"> 
+        <ButtonWithTooltip link="https://twitter.com/tarikkavaz" tooptip="Twitter"> 
           <svg
             aria-hidden="true"
             class="icon"
@@ -112,7 +112,7 @@
             ></path>
           </svg>
         </ButtonWithTooltip>
-        <ButtonWithTooltip link="ttps://www.instagram.com/tarikkavaz_" tooptip="Instagram"> 
+        <ButtonWithTooltip link="https://www.instagram.com/tarikkavaz_" tooptip="Instagram"> 
           <svg
             aria-hidden="true"
             class="icon"
