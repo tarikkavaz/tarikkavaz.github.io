@@ -5,14 +5,10 @@ import VueTippy from 'vue-tippy'
 import './index.scss'
 import 'tippy.js/animations/scale-subtle.css'
 
-
-
 const app = createApp(App);
-
 app.use(VueTippy, {
   defaultProps: { 
     animation: 'scale-subtle',
   },
 })
-
 app.mount('#app')

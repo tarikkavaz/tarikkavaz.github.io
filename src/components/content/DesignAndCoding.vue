@@ -24,11 +24,9 @@
         <li class="ml-5">
           Libraries &amp; Frameworks
           <span class="tag">jQuery</span>
-
           <span class="tag">vue.js</span>
           <span class="tag">next.js</span>
           <span class="tag">electron.js</span>
-
           <span class="tag">Middleman</span>
         </li>
         <li class="ml-5">
@@ -51,7 +49,7 @@
 </template>
 
 <style scoped>
-.tag {
-  @apply inline-block px-2 py-1 ml-2 text-xs text-black bg-dotyellow rounded shadow-md;
-}
+  .tag {
+    @apply inline-block px-2 py-1 ml-2 text-xs text-black bg-dotyellow rounded shadow-md;
+  }
 </style>

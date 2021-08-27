@@ -30,7 +30,7 @@
 </template>
 
 <style scoped>
-.tag {
-  @apply inline-block px-2 py-1 ml-2 text-xs text-white bg-dotred rounded shadow-md;
-}
+  .tag {
+    @apply inline-block px-2 py-1 ml-2 text-xs text-white bg-dotred rounded shadow-md;
+  }
 </style>

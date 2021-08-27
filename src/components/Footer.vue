@@ -15,17 +15,15 @@
         <path d="M39.333 5.5L32 18.333 24.667 5.5H12.833L32 38.833 51.167 5.5z" fill="#35495e"/>
         </svg>
       </a>
-      
     </p>
-    
   </div>
 </template>
 
 <style scoped>
-a {
-  @apply w-10 h-16 text-center inline-block;
-}
-.logo {
-  @apply w-16 h-16 scale-30 grayscale hover:grayscale-0;
-}
+  a {
+    @apply w-10 h-16 text-center inline-block;
+  }
+  .logo {
+    @apply w-16 h-16 scale-30 grayscale hover:grayscale-0;
+  }
 </style>

@@ -4,7 +4,6 @@
     I'm <span class="font-semibold">Tarık Kavaz</span>, Designer & Coder;
     <span class="text-base"> Movie, Music & Animal Lover</span>.
   </p>
-
   <p class="my-4 text-2xl font-bold">My expertise lies in</p>
   <ul class="pl-5 list-disc">
     <li>Corporate Identity Design</li>
@@ -22,8 +21,7 @@
 </template>
 
 <style scoped>
-
-.tag {
-  @apply inline-block px-2 py-1 mt-3 ml-5 text-xs text-white bg-dotgreen rounded shadow-md;
-}
+  .tag {
+    @apply inline-block px-2 py-1 mt-3 ml-5 text-xs text-white bg-dotgreen rounded shadow-md;
+  }
 </style>

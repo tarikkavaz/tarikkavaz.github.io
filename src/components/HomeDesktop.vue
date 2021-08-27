@@ -14,7 +14,6 @@
       >
         <HelloWorld />
       </div>
-
       <div
         class="box"
         data-0p="opacity: 0; visibility: hidden;"
@@ -41,28 +40,28 @@
 </template>
 
 <script>
-import Header from "./Header.vue";
-import Footer from "./Footer.vue";
-import ScrollDownIcon from "./ScrollDownIcon.vue";
-import ScrollIndicator from "./ScrollIndicator.vue";
-import HelloWorld from "./content/HelloWorld.vue";
-import DesignAndCoding from "./content/DesignAndCoding.vue";
-import Clients from "./content/Clients.vue";
-export default {
-  components: {
-    ScrollDownIcon,
-    ScrollIndicator,
-    Header,
-    Footer,
-    HelloWorld,
-    DesignAndCoding,
-    Clients,
-  },
-};
+  import Header from "./Header.vue";
+  import Footer from "./Footer.vue";
+  import ScrollDownIcon from "./ScrollDownIcon.vue";
+  import ScrollIndicator from "./ScrollIndicator.vue";
+  import HelloWorld from "./content/HelloWorld.vue";
+  import DesignAndCoding from "./content/DesignAndCoding.vue";
+  import Clients from "./content/Clients.vue";
+  export default {
+    components: {
+      ScrollDownIcon,
+      ScrollIndicator,
+      Header,
+      Footer,
+      HelloWorld,
+      DesignAndCoding,
+      Clients,
+    },
+  };
 </script>
 
 <style scoped>
-.box {
-  @apply px-6 w-full absolute text-xl;
-}
+  .box {
+    @apply px-6 w-full absolute text-xl;
+  }
 </style>

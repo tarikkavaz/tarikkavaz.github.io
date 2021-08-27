@@ -12,17 +12,17 @@
 </template>
 
 <script>
-import Header from "./Header.vue";
-import HelloWorld from "./content/HelloWorld.vue";
-import DesignAndCoding from "./content/DesignAndCoding.vue";
-import Clients from "./content/Clients.vue";
+  import Header from "./Header.vue";
+  import HelloWorld from "./content/HelloWorld.vue";
+  import DesignAndCoding from "./content/DesignAndCoding.vue";
+  import Clients from "./content/Clients.vue";
 
-export default {
-  components: {
-    Header,
-    HelloWorld,
-    DesignAndCoding,
-    Clients,
-  },
-};
+  export default {
+    components: {
+      Header,
+      HelloWorld,
+      DesignAndCoding,
+      Clients,
+    },
+  };
 </script>

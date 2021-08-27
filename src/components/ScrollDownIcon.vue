@@ -19,10 +19,10 @@
 </template>
 
 <style lang="scss" scoped>
-svg {
-  @apply h-11
-}
-path {
-  @apply transition duration-700 ease-in-out text-gray-600 dark:text-white;
-}
+  svg {
+    @apply h-11
+  }
+  path {
+    @apply transition duration-700 ease-in-out text-gray-600 dark:text-white;
+  }
 </style>
