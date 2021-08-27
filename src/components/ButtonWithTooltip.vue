@@ -8,14 +8,16 @@
   </a>
 </template>
 
-<script>
+<script> 
 export default {
   props: {
     link: {
-      type: String
+      type: String,
+      default: "#"
     },
     tooptip: {
-      type: String
+      type: String,
+      default: "Hello"
     }
   }
 }
