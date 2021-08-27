@@ -3,7 +3,7 @@
     <div class="max-h-40">
       <Header />
     </div>
-    <div class="relative z-50 w-full col-span-2 p-7 font-titillium">
+    <div class="relative z-50 w-full col-span-2 px-7 font-titillium">
       <div class="mt-20"><HelloWorld /></div>
       <div class="mt-20"><DesignAndCoding /></div>
       <div class="mt-20"><Clients /></div>
