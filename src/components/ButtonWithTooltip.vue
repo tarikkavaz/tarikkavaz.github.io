@@ -29,7 +29,7 @@
 </script>
 
 <style>
-  .tippy-content {
-    @apply text-black dark:text-white;
+  a {
+    @apply w-6 h-6;
   }
 </style>
