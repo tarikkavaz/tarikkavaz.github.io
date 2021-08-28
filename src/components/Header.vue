@@ -75,7 +75,7 @@
             ></path>
           </svg>
         </ButtonWithTooltip>
-        <ButtonWithTooltip location="bottom" link="https://github.com/tarikkavaz" tooptip="GitHub"> 
+        <ButtonWithTooltip location="bottom" link="https://github.com/tarikkavaz" linkTarget="_blank" tooptip="GitHub"> 
           <svg
             aria-hidden="true"
             class="icon"
@@ -89,7 +89,7 @@
             ></path>
           </svg>
         </ButtonWithTooltip>
-        <ButtonWithTooltip location="bottom" link="https://www.linkedin.com/in/tarikkavaz" tooptip="Linkedin"> 
+        <ButtonWithTooltip location="bottom" link="https://www.linkedin.com/in/tarikkavaz" linkTarget="_blank" tooptip="Linkedin"> 
           <svg
             aria-hidden="true"
             class="icon"
@@ -103,7 +103,7 @@
             ></path>
           </svg>
         </ButtonWithTooltip>
-        <ButtonWithTooltip location="bottom" link="https://twitter.com/tarikkavaz" tooptip="Twitter"> 
+        <ButtonWithTooltip location="bottom" link="https://twitter.com/tarikkavaz" linkTarget="_blank" tooptip="Twitter"> 
           <svg
             aria-hidden="true"
             class="icon"
@@ -117,7 +117,7 @@
             ></path>
           </svg>
         </ButtonWithTooltip>
-        <ButtonWithTooltip location="bottom" link="https://www.instagram.com/tarikkavaz_" tooptip="Instagram"> 
+        <ButtonWithTooltip location="bottom" link="https://www.instagram.com/tarikkavaz_" linkTarget="_blank" tooptip="Instagram"> 
           <svg
             aria-hidden="true"
             class="icon"
@@ -131,7 +131,7 @@
             ></path>
           </svg>
         </ButtonWithTooltip>
-        <ButtonWithTooltip location="bottom" link="https://open.spotify.com/user/tarikkavaz" tooptip="Spotify"> 
+        <ButtonWithTooltip location="bottom" link="https://open.spotify.com/user/tarikkavaz" linkTarget="_blank" tooptip="Spotify"> 
           <svg
             aria-hidden="true"
             class="icon"
@@ -198,8 +198,8 @@
   .icon {
     @apply transition duration-700 ease-in-out w-6 h-6  hover:fill-current text-gray-900 dark:text-gray-100;
   }
-  .tippy-box {@apply bg-gray-900 dark:bg-gray-100}
-  .tippy-backdrop {@apply text-gray-900 dark:text-gray-100}
-  .tippy-arrow {@apply text-gray-900 dark:text-gray-100}
+  .tippy-box {@apply bg-gray-700 dark:bg-gray-100}
+  .tippy-backdrop {@apply text-gray-700 dark:text-gray-100}
+  .tippy-arrow {@apply text-gray-700 dark:text-gray-100}
   .tippy-content {@apply text-gray-100 dark:text-gray-900}
 </style>

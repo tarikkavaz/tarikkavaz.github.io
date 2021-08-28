@@ -1,6 +1,6 @@
 <template>
   <tippy :content="tooptip" :placement="location" :theme="css" >
-    <a :href="link" target="_blank">
+    <a :href="link" :target="linkTarget">
       <slot/>
     </a>
   </tippy>
@@ -10,6 +10,9 @@
   export default {
     props: {
       link: {
+        type: String
+      },
+      linkTarget: {
         type: String
       },
       css: {
