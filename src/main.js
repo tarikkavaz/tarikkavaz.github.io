@@ -12,6 +12,7 @@ app.use(VueTippy, {
   defaultProps: { 
     animation: 'scale-subtle',
     inertia: true,
+    touch: false,
   },
 })
 app.mount('#app')
