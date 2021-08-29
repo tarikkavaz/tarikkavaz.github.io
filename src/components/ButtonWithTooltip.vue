@@ -29,7 +29,7 @@
       }
     },
     created() {
-      setTimeout(() => this.$refs.tooptipBtn.tippy.hide(), 3000);
+      setTimeout(() => this.$refs.tooptipBtn.tippy.hide(), 4000);
     }
   }
 </script>
