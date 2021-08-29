@@ -1,5 +1,5 @@
 <template>
-  <tippy :content="tooptip" :placement="location" :theme="css" >
+  <tippy :content="tooptip" :placement="location" :theme="css" ref="tooptipBtn">
     <a :href="link" :target="linkTarget">
       <slot/>
     </a>
@@ -27,6 +27,9 @@
         type: String,
         default: "Hello"
       }
+    },
+    created() {
+      setTimeout(() => this.$refs.tooptipBtn.tippy.hide(), 3000);
     }
   }
 </script>

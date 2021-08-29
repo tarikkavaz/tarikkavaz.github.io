@@ -198,8 +198,8 @@
   .icon {
     @apply transition duration-700 ease-in-out w-6 h-6  hover:fill-current text-gray-900 dark:text-gray-100;
   }
-  .tippy-box {@apply bg-gray-700 dark:bg-gray-100}
-  .tippy-backdrop {@apply text-gray-700 dark:text-gray-100}
-  .tippy-arrow {@apply text-gray-700 dark:text-gray-100}
-  .tippy-content {@apply text-gray-100 dark:text-gray-900}
+  .tippy-box {@apply bg-gray-700 dark:bg-gray-100;}
+  .tippy-backdrop {@apply text-gray-700 dark:text-gray-100;}
+  .tippy-arrow {@apply text-gray-700 dark:text-gray-100;}
+  .tippy-content {@apply text-gray-100 dark:text-gray-900;}
 </style>
