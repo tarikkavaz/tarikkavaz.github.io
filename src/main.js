@@ -13,6 +13,7 @@ app.use(VueTippy, {
     animation: 'scale-subtle',
     inertia: true,
     touch: false,
+    followCursor: 'horizontal',
   },
 })
 app.mount('#app')
