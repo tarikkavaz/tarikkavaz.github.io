@@ -1,5 +1,5 @@
 <template>
-  <tippy :content="tooptip" :placement="location" allowHTML="true" :theme="css" ref="tooptipBtn">
+  <tippy :content="tooptip" :placement="location" :allowHTML="true" :theme="css" ref="tooptipBtn">
     <a :href="link" :target="linkTarget">
       <slot/>
     </a>
