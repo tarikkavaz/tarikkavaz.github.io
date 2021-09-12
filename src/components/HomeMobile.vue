@@ -8,8 +8,8 @@
       <div class="mt-20"><DesignAndCoding /></div>
       <div class="mt-20"><Clients /></div>
       <div class="container relative z-50 flex flex-row justify-center mt-20 bottom-3 md:-translate-x-1/2 md:left-1/2">
-    <Footer />
-  </div>
+        <Footer />
+      </div>
     </div>
     
   </div>
