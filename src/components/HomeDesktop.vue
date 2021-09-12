@@ -57,6 +57,43 @@
       DesignAndCoding,
       Clients,
     },
+  data() {
+    return {
+      scrollAmount: 0.5
+    };
+  },
+  methods: {
+    scrollView(amount) {
+      let scrollFromTop = window.pageYOffset;
+      const viewHeight = Math.round(window.innerHeight * Math.abs(amount));
+      if (scrollFromTop % viewHeight === 0) scrollFromTop += Math.sign(amount);
+      let targetPos;
+      if (amount > 0)
+        targetPos = Math.ceil(scrollFromTop / viewHeight) * viewHeight;
+      else
+        targetPos = Math.floor(scrollFromTop / viewHeight) * viewHeight;
+      window.scrollTo({
+        top: targetPos,
+        behavior: "smooth"
+      });
+    },
+    keyHandler(e) {
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        this.scrollView(this.scrollAmount); 
+      }
+      if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        this.scrollView(this.scrollAmount * -1); 
+      }
+    },
+  },
+  mounted() {
+    window.addEventListener("keydown", this.keyHandler);
+  },
+  beforeUnmount() {
+    window.removeEventListener("keydown", this.keyHandler);
+  }
   };
 </script>
 

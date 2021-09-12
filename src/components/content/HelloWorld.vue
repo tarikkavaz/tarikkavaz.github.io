@@ -17,7 +17,7 @@
     </li>
     <li>Back-end Development for Custom Web Applications</li>
   </ul>
-  <p class="tag">Scroll / Swipe down for more.</p>
+  <p class="tag">Scroll / Swipe down or use Arrow keys for more.</p>
 </template>
 
 <style scoped>
