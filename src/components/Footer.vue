@@ -1,5 +1,5 @@
 <template>
-  <div class="container fixed z-50 flex flex-row justify-center bottom-3 md:-translate-x-1/2 md:left-1/2">
+  <div class="z-50 flex flex-row justify-center bottom-3 md:-translate-x-1/2 md:left-1/2">
       <ButtonWithTooltip location="left" link="https://tailwindcss.com/" linkTarget="_blank" tooptip="TailwindCSS" :followCursor="false"> 
         <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 70 70">
         <defs><linearGradient x1="0" y1="-21.333" y2="85.333" id="A" x2="64" gradientUnits="userSpaceOnUse">

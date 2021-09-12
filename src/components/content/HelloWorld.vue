@@ -17,7 +17,11 @@
     </li>
     <li>Back-end Development for Custom Web Applications</li>
   </ul>
-  <p class="tag">Scroll / Swipe down or use Arrow keys for more.</p>
+  <p class="tag">
+    
+    <span v-if="!isMobile()">Scroll down or use Arrow keys</span>
+    <span v-else> Swipe down</span> for more.
+    </p>
 </template>
 
 <style scoped>

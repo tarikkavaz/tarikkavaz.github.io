@@ -36,7 +36,9 @@
     <ScrollDownIcon />
   </div>
   <ScrollIndicator />
-  <Footer />
+  <div class="container fixed z-50 flex flex-row justify-center bottom-3 md:-translate-x-1/2 md:left-1/2">
+    <Footer />
+  </div>
 </template>
 
 <script>
