@@ -17,6 +17,7 @@
     </li>
     <li>Groovypedia</li>
     <li>Istanbul Bilgi University</li>
+    <li>Journey Café Cihangir</li>
     <li>
       Kopaş Kozmetik
       <span class="tag">Dalin</span>
