@@ -1,11 +1,11 @@
 <template>
   <h3 class="mb-4 text-3xl font-bold">Some Clients <span class="text-xs text-gray-600">(alphabetical)</span></h3>
   <ul class="pl-5 list-disc">
-    <!-- <li>
+    <li>
       Curious Cluster
       <span class="tag">Polpo Tech</span>
       <span class="tag">Curious Games</span>
-    </li> -->
+    </li>
     <li>Emirates</li>
     <li>Flamm Bodrum</li>
     <li>
