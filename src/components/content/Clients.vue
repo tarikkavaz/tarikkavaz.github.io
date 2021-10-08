@@ -1,5 +1,5 @@
 <template>
-  <h3 class="mb-4 text-3xl font-bold">Some Clients <span class="text-xs text-gray-600">(alphabetical)</span></h3>
+  <h3 class="mb-4 text-3xl font-bold">Some Clients <span class="text-xs">(alphabetical)</span></h3>
   <ul class="pl-5 list-disc">
     <li>
       Curious Cluster
