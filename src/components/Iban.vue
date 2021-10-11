@@ -33,15 +33,15 @@
             >
               <DialogTitle
                 as="h3"
-                class="text-lg font-medium leading-6 text-gray-900"
+                class="text-lg font-medium leading-6 text-gray-900 dark:text-gray-900"
               >
                 Bank Information
               </DialogTitle>
               <div class="mt-8">
-                <p class="my-2 font-mono text-sm text-gray-700">
+                <p class="my-2 font-mono text-sm text-gray-700 dark:text-gray-700">
                   GARANTI BBVA - CAGLAYAN ISTANBUL
                 </p>
-                <p class="font-mono text-sm text-gray-500">
+                <p class="font-mono text-sm text-gray-500 dark:text-gray-500">
                   TRY : TR55 0006 2000 4030 0006 6905 22<br>
                   EUR : TR03 0006 2000 4030 0009 0702 86<br>
                   USD : TR12 0006 2000 4030 0009 0743 92
