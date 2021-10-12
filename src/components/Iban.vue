@@ -41,10 +41,10 @@
                 <p class="my-2 font-mono text-sm text-gray-700 dark:text-gray-700">
                   GARANTI BBVA - CAGLAYAN ISTANBUL
                 </p>
-                <p class="font-mono text-sm text-gray-500 dark:text-gray-500">
-                  TRY : TR55 0006 2000 4030 0006 6905 22<br>
-                  EUR : TR03 0006 2000 4030 0009 0702 86<br>
-                  USD : TR12 0006 2000 4030 0009 0743 92
+                <p class="font-mono text-xs text-gray-500 md:text-sm dark:text-gray-500">
+                  TRY: TR55 0006 2000 4030 0006 6905 22<br>
+                  EUR: TR03 0006 2000 4030 0009 0702 86<br>
+                  USD: TR12 0006 2000 4030 0009 0743 92
                 </p>
               </div>
 
