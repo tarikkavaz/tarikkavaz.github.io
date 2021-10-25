@@ -1,6 +1,12 @@
 <template>
-  <h3 class="mb-4 text-3xl font-bold">Some Clients</h3>
+  <h3 class="mb-4 text-3xl font-bold">Some Clients <span class="text-xs">(alphabetical)</span></h3>
   <ul class="pl-5 list-disc">
+    <li>
+      Curious Cluster
+      <span class="tag">Polpo Tech</span>
+      <span class="tag">Curious Games</span>
+    </li>
+    <li>Concerts East</li>
     <li>Emirates</li>
     <li>Flamm Bodrum</li>
     <li>
@@ -12,6 +18,7 @@
     </li>
     <li>Groovypedia</li>
     <li>Istanbul Bilgi University</li>
+    <li>Journey Café Cihangir</li>
     <li>
       Kopaş Kozmetik
       <span class="tag">Dalin</span>

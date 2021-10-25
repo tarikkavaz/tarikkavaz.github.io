@@ -2,10 +2,12 @@
   <HomeDesktop v-if="!isMobile()"></HomeDesktop>
   <HomeMobile v-else></HomeMobile>
   <Blob />
+  <Iban />
 </template>
 
 <script>
   import Blob from "./components/Blob.vue";
+  import Iban from "./components/Iban.vue";
   import HomeDesktop from "./components/HomeDesktop.vue";
   import HomeMobile from "./components/HomeMobile.vue";
   import skrollr from "skrollr";
@@ -13,10 +15,10 @@
   export default {
     components: {
       Blob,
+      Iban,
       HomeDesktop,
       HomeMobile,
     },
-
     mounted() {
       var s = skrollr.init();
       if (s.isMobile()) {
