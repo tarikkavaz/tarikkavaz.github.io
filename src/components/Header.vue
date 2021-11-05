@@ -51,8 +51,8 @@
       <h2 class="text-xl text-gray-500 transition duration-700 ease-in-out sm:text-3xl dark:text-gray-100">Designer & Coder</h2>
     </div>
     <div class="z-50 flex items-center justify-center h-full col-span-2 mt-5 md:col-span-1 md:mt-0">
-      <div class="grid grid-cols-6 gap-x-6 gap-y-1">
-        <div class="h-12 col-span-6">
+      <div class="grid grid-cols-7 gap-x-6 gap-y-1">
+        <div class="h-12 col-span-7">
           <div class="grid justify-end">
             <ButtonWithTooltip v-if="!isMobile()"
             location="left" 
@@ -90,6 +90,22 @@
               d="M176 216h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16zm-16 80c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16H176c-8.84 0-16 7.16-16 16v16zm96 121.13c-16.42 0-32.84-5.06-46.86-15.19L0 250.86V464c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V250.86L302.86 401.94c-14.02 10.12-30.44 15.19-46.86 15.19zm237.61-254.18c-8.85-6.94-17.24-13.47-29.61-22.81V96c0-26.51-21.49-48-48-48h-77.55c-3.04-2.2-5.87-4.26-9.04-6.56C312.6 29.17 279.2-.35 256 0c-23.2-.35-56.59 29.17-73.41 41.44-3.17 2.3-6 4.36-9.04 6.56H96c-26.51 0-48 21.49-48 48v44.14c-12.37 9.33-20.76 15.87-29.61 22.81A47.995 47.995 0 0 0 0 200.72v10.65l96 69.35V96h320v184.72l96-69.35v-10.65c0-14.74-6.78-28.67-18.39-37.77z"
               alt="e-mail"
             ></path>
+          </svg>
+        </ButtonWithTooltip>
+        <ButtonWithTooltip location="bottom" link="https://www.upwork.com/freelancers/~01cfda6cbcce8badfa?viewMode=1" linkTarget="_blank" tooptip="upwork"> 
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            viewBox="0 0 1024 1024" 
+            aria-hidden="true"
+            class="icon"
+            role="img"
+          >
+            <path 
+              class="fill-current"
+              d="M777.837 512.103c-8.072 40.739-47.4 65.863-88.383 59.16-23.872-3.906-47.072-16.17-68.82-33.868l9.66-46.418c8.072-40.747 47.636-75.33 88.383-67.257a75.206 75.206 0 0159.16 88.383zM1024 64v896a64 64 0 01-64 64H64a64 64 0 01-64-64V64A64 64 0 0164 0h896a64 64 0 0164 64zM735.19 347.66a153.207 153.207 0 00-179.225 116.63c-35.657-52.55-62.015-114.338-72.75-161.553l-75.743.001V499.34a71.416 71.416 0 01-142.832 0V302.739h-75.743v199.484a147.16 147.16 0 00294.318 0v-30.958c13.3 31.507 30.584 62.625 52.566 89.934l-45.393 218.11h79.907L603.24 620.98a217.3 217.3 0 0072.414 27.266c83.209 15.397 163.628-37.522 180.067-120.53A153.214 153.214 0 00735.19 347.66z"
+              alt="upwork"
+              >
+            </path>
           </svg>
         </ButtonWithTooltip>
         <ButtonWithTooltip location="bottom" link="https://github.com/tarikkavaz" linkTarget="_blank" tooptip="GitHub"> 
