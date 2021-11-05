@@ -93,18 +93,17 @@
           </svg>
         </ButtonWithTooltip>
         <ButtonWithTooltip location="bottom" link="https://www.upwork.com/freelancers/~01cfda6cbcce8badfa" linkTarget="_blank" tooptip="Upwork"> 
-          <svg
-            aria-hidden="true"
-            class="icon"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512">
-            <path 
-              class="fill-current" 
-              d="M42.4,17.7c-5.3,0-9.3,3.5-10.9,9c-2.5-3.9-4.5-8.3-5.6-12.1h-5.6v14.7c0,2.9-2.4,5.3-5.3,5.3c-2.9,0-5.3-2.4-5.3-5.3V14.7  H4.3v14.7c0,6.1,4.9,11,10.9,11c6,0,10.9-4.9,10.9-11v-2.5c1.1,2.2,2.5,4.6,4,6.7l-3.5,16.3h5.7L34.7,38c2.2,1.4,4.7,2.2,7.7,2.2  c6.1,0,11.1-5,11.1-11.4C53.5,22.7,48.5,17.7,42.4,17.7z M42.4,34.6c-2.2,0-4.5-1-6.3-2.5l0.6-2.2v-0.1c0.4-2.4,1.7-6.4,5.8-6.4  c3.1,0,5.6,2.5,5.6,5.6C48,32.1,45.3,34.6,42.4,34.6z"
-              alt="Upwork"
-              >
-            </path>
-          </svg>
+          <svg 
+          aria-hidden="true"
+          class="icon"
+          viewBox="0 0 54 54" 
+          xmlns="http://www.w3.org/2000/svg"
+          >
+          <g class="fill-current">
+            <path d="M38.8,24.6c-2.8,0-3.7,2.7-3.9,4.3v0.1l-0.4,1.5c1.2,1,2.7,1.7,4.2,1.7c2,0,3.8-1.7,3.9-3.9C42.6,26.3,40.9,24.6,38.8,24.6   z"/>
+            <path d="M28.9,3.7C15.2,3.7,4.1,14.8,4.1,28.5c0,13.7,11.1,24.8,24.8,24.8c13.7,0,24.8-11.1,24.8-24.8C53.7,14.8,42.6,3.7,28.9,3.7   z M38.8,36.1c-2,0-3.7-0.6-5.2-1.5l-1.7,8H28l2.4-11c-1-1.4-2-3-2.7-4.5v1.7c0,4.1-3.3,7.4-7.3,7.4c-4,0-7.3-3.3-7.3-7.4v-10h3.8   v10c0,2,1.6,3.6,3.6,3.6c2,0,3.6-1.6,3.6-3.6v-10h3.8c0.8,2.5,2.1,5.5,3.8,8.2c1-3.8,3.8-6.1,7.3-6.1c4.1,0,7.5,3.4,7.5,7.5   C46.3,32.7,42.9,36.1,38.8,36.1z"/>
+          </g>
+        </svg>
         </ButtonWithTooltip>
         <ButtonWithTooltip location="bottom" link="https://github.com/tarikkavaz" linkTarget="_blank" tooptip="GitHub"> 
           <svg
