@@ -5,7 +5,7 @@
     <div class="col-span-3 max-h-40">
       <Header />
     </div>
-    <div class="relative w-full col-span-2 mt-4 font-titillium">
+    <div class="relative w-full col-span-2 mt-14 font-titillium">
       <div
         class="box"
         data-0p="opacity: 1; visibility: visible;"
