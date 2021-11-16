@@ -4,8 +4,8 @@
     <li>
       Curious Cluster
       <span class="tag">Polpo Tech</span>
-      <span class="tag">Curious Games</span>
     </li>
+    <li>Curious Games</li>
     <li>Concerts East</li>
     <li>Emirates</li>
     <li>Flamm Bodrum</li>
