@@ -10,7 +10,7 @@
   "dependencies": {
     "@headlessui/vue": "^1.4.1",
     "core-js": "^3.6.5",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^10.1.1",
     "skrollr": "^0.6.26",
     "smoothscroll-polyfill": "^0.4.4",
