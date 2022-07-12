@@ -38,12 +38,16 @@
                 Bank Information
               </DialogTitle>
               <div class="mt-8">
-                <p class="my-2 font-mono text-sm text-gray-700 dark:text-gray-700">
+                <p
+                  class="my-2 font-mono text-sm text-gray-700 dark:text-gray-700"
+                >
                   GARANTI BBVA - CAGLAYAN ISTANBUL
                 </p>
-                <p class="font-mono text-xs text-gray-500 md:text-sm dark:text-gray-500">
-                  TRY: TR55 0006 2000 4030 0006 6905 22<br>
-                  EUR: TR03 0006 2000 4030 0009 0702 86<br>
+                <p
+                  class="font-mono text-xs text-gray-500 md:text-sm dark:text-gray-500"
+                >
+                  TRY: TR55 0006 2000 4030 0006 6905 22<br />
+                  EUR: TR03 0006 2000 4030 0009 0702 86<br />
                   USD: TR12 0006 2000 4030 0009 0743 92
                 </p>
               </div>
@@ -66,43 +70,46 @@
 </template>
 
 <script>
-import { ref } from 'vue'
-import {
-  TransitionRoot,
-  TransitionChild,
-  Dialog,
-  DialogOverlay,
-  DialogTitle,
-} from '@headlessui/vue'
-export default {
-  components: {
+  import { ref } from "vue";
+  import {
     TransitionRoot,
     TransitionChild,
     Dialog,
     DialogOverlay,
-    DialogTitle,
-  },
-  setup() {
-    const isOpen = ref(false)
+    DialogTitle
+  } from "@headlessui/vue";
+  export default {
+    components: {
+      TransitionRoot,
+      TransitionChild,
+      Dialog,
+      DialogOverlay,
+      DialogTitle
+    },
+    setup() {
+      const isOpen = ref(false);
 
-    return {
-      isOpen,
-      closeModal() {
-        isOpen.value = false
-      },
-      openModal() {
-        isOpen.value = true
-      },
+      return {
+        isOpen,
+        closeModal() {
+          isOpen.value = false;
+        },
+        openModal() {
+          isOpen.value = true;
+        }
+      };
+    },
+    mounted() {
+      // if (location.search.match(/iban/)) {
+      //   this.isOpen = true;
+      // }
+      var path = window.location.pathname.split("/")[1];
+      console.log(path);
+      if (path == "iban") {
+        this.isOpen = true;
+      }
     }
-  },
-  mounted() {
-    if (location.search.match(/iban/)) {
-      this.isOpen = true
-    };
-  },
-}
+  };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
