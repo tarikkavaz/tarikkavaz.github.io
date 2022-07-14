@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build && rm -rf dist/404.html && cp dist/index.html dist/404.html",
+    "404": "rm -rf dist/404.html && cp dist/index.html dist/404.html",
+    "build": "vue-cli-service build && npm run --silent 404",
     "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
