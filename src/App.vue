@@ -3,11 +3,13 @@
   <HomeMobile v-else></HomeMobile>
   <Blob />
   <Iban />
+  <Works />
 </template>
 
 <script>
   import Blob from "./components/Blob.vue";
   import Iban from "./components/Iban.vue";
+  import Works from "./components/Works.vue";
   import HomeDesktop from "./components/HomeDesktop.vue";
   import HomeMobile from "./components/HomeMobile.vue";
   import skrollr from "skrollr";
@@ -16,6 +18,7 @@
     components: {
       Blob,
       Iban,
+      Works,
       HomeDesktop,
       HomeMobile
     },
