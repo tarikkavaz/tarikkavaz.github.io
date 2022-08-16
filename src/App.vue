@@ -4,12 +4,14 @@
   <Blob />
   <Iban />
   <Works />
+  <Invoice />
 </template>
 
 <script>
   import Blob from "./components/Blob.vue";
   import Iban from "./components/Iban.vue";
   import Works from "./components/Works.vue";
+  import Invoice from "./components/Invoice.vue";
   import HomeDesktop from "./components/HomeDesktop.vue";
   import HomeMobile from "./components/HomeMobile.vue";
   import skrollr from "skrollr";
@@ -19,6 +21,7 @@
       Blob,
       Iban,
       Works,
+      Invoice,
       HomeDesktop,
       HomeMobile
     },

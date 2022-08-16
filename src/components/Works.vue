@@ -35,14 +35,10 @@
                 as="h3"
                 class="text-lg font-medium leading-6 text-gray-900 dark:text-gray-900"
               >
-                Some Works
+                SOME WORKS
               </DialogTitle>
               <div class="mt-8">
-                <p
-                  class="my-2 font-mono text-sm text-gray-700 dark:text-gray-700"
-                >
-                  Click to see:
-                </p>
+
                 <p
                   class="font-mono text-xs text-gray-500 md:text-sm dark:text-gray-500"
                 >

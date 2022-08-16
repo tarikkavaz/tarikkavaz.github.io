@@ -35,9 +35,22 @@
                 as="h3"
                 class="text-lg font-medium leading-6 text-gray-900 dark:text-gray-900"
               >
-                BANK INFORMATION
+                INVOICE DETAILS
               </DialogTitle>
               <div class="mt-8">
+<p
+                  class="my-2 font-mono text-sm text-gray-700 dark:text-gray-700"
+                >
+                  TARIK R. KAVAZ
+                </p>
+                <p
+                  class="font-mono text-xs text-gray-500 md:text-sm dark:text-gray-500"
+                >
+                  ACIBADEM MAH. İLKBAHAR SK. KARTAL APT 8 NO 2 <br>
+                  ÜSKÜDAR - İSTANBUL - TÜRKİYE<br>
+                  ÜSKÜDAR VD 14393261122
+
+                </p>
                 <p
                   class="my-2 font-mono text-sm text-gray-700 dark:text-gray-700"
                 >
@@ -105,7 +118,7 @@
       // }
       var path = window.location.pathname.split("/")[1];
       console.log(path);
-      if (path == "iban") {
+      if (path == "invoice") {
         this.isOpen = true;
       }
     }
