@@ -38,7 +38,7 @@
                 INVOICE DETAILS
               </DialogTitle>
               <div class="mt-8">
-<p
+                <p
                   class="my-2 font-mono text-sm text-gray-700 dark:text-gray-700"
                 >
                   TARIK R. KAVAZ
@@ -46,10 +46,14 @@
                 <p
                   class="font-mono text-xs text-gray-500 md:text-sm dark:text-gray-500"
                 >
-                  ACIBADEM MAH. İLKBAHAR SK. KARTAL APT 8 NO 2 <br>
-                  ÜSKÜDAR - İSTANBUL - TÜRKİYE<br>
+                  ACIBADEM MAH. İLKBAHAR SK. KARTAL APT 8 NO 2 <br />
+                  ÜSKÜDAR - İSTANBUL - TÜRKİYE<br />
                   ÜSKÜDAR VD 14393261122
-
+                </p>
+                <p
+                  class="pt-6 my-2 font-mono text-sm text-gray-800 dark:text-gray-800"
+                >
+                  BANK INFORMATION
                 </p>
                 <p
                   class="my-2 font-mono text-sm text-gray-700 dark:text-gray-700"

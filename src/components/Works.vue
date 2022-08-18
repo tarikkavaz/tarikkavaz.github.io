@@ -38,23 +38,69 @@
                 SOME WORKS
               </DialogTitle>
               <div class="mt-8">
-
                 <p
                   class="font-mono text-xs text-gray-500 md:text-sm dark:text-gray-500"
                 >
-                  - <a target="_blank" class="p-1" href="https://www.bilgi.edu.tr">bilgi.edu.tr</a><br>
-                  - <a target="_blank" class="p-1" href="https://aday.bilgi.edu.tr">aday.bilgi.edu.tr</a><br>
-                  - <a target="_blank" class="p-1" href="https://asu.bilgi.edu.tr">asu.bilgi.edu.tr</a><br>
-                  - <a target="_blank" class="p-1" href="https://alt.bilgi.edu.tr">alt.bilgi.edu.tr</a><br>
-                  - <a target="_blank" class="p-1" href="https://mag.bilgi.edu.tr">mag.bilgi.edu.tr</a><br>
-                  - <a target="_blank" class="p-1" href="https://curiousgames.io">curiousgames.io</a><br>
-                  - <a target="_blank" class="p-1" href="https://flammbodrum.vercel.app">flammbodrum.vercel.app</a>*<br>
-                  - <a target="_blank" class="p-1" href="https://journeycihangir.com">journeycihangir.com</a><br>
-                  - <a target="_blank" class="p-1" href="https://myela.com.tr">myela.com.tr</a><br>
-                  - <a target="_blank" class="p-1" href="http://dalin.com">dalin.com</a><br>
-                  - <a target="_blank" class="p-1" href="https://lovestreamfestival.github.io">lovestreamfestival.github.io</a><br>
-                  - <a target="_blank" class="p-1" href="https://groovypedia.com">groovypedia.com</a>
-
+                  -
+                  <a class="p-1" target="_blank" href="https://www.bilgi.edu.tr"
+                    >bilgi.edu.tr</a
+                  ><br />
+                  -
+                  <a
+                    target="_blank"
+                    class="p-1"
+                    href="https://aday.bilgi.edu.tr"
+                    >aday.bilgi.edu.tr</a
+                  ><br />
+                  -
+                  <a class="p-1" target="_blank" href="https://asu.bilgi.edu.tr"
+                    >asu.bilgi.edu.tr</a
+                  ><br />
+                  -
+                  <a class="p-1" target="_blank" href="https://alt.bilgi.edu.tr"
+                    >alt.bilgi.edu.tr</a
+                  ><br />
+                  -
+                  <a class="p-1" target="_blank" href="https://mag.bilgi.edu.tr"
+                    >mag.bilgi.edu.tr</a
+                  ><br />
+                  -
+                  <a class="p-1" target="_blank" href="https://curiousgames.io"
+                    >curiousgames.io</a
+                  ><br />
+                  -
+                  <a
+                    target="_blank"
+                    class="p-1"
+                    href="https://flammbodrum.vercel.app"
+                    >flammbodrum.vercel.app</a
+                  >*<br />
+                  -
+                  <a
+                    target="_blank"
+                    class="p-1"
+                    href="https://journeycihangir.com"
+                    >journeycihangir.com</a
+                  ><br />
+                  -
+                  <a class="p-1" target="_blank" href="https://myela.com.tr"
+                    >myela.com.tr</a
+                  ><br />
+                  -
+                  <a class="p-1" target="_blank" href="http://dalin.com"
+                    >dalin.com</a
+                  ><br />
+                  -
+                  <a
+                    target="_blank"
+                    class="p-1"
+                    href="https://lovestreamfestival.github.io"
+                    >lovestreamfestival.github.io</a
+                  ><br />
+                  -
+                  <a class="p-1" target="_blank" href="https://groovypedia.com"
+                    >groovypedia.com</a
+                  >
                 </p>
               </div>
 
