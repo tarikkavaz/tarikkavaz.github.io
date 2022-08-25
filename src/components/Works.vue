@@ -96,7 +96,7 @@
                     class="p-1"
                     href="https://lovestreamfestival.github.io"
                     >lovestreamfestival.github.io</a
-                  ><br />
+                  >*<br />
                   -
                   <a class="p-1" target="_blank" href="https://groovypedia.com"
                     >groovypedia.com</a
