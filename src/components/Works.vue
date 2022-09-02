@@ -29,7 +29,7 @@
             leave-to="opacity-0 scale-95"
           >
             <div
-              class="inline-block w-full max-w-md p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl"
+              class="inline-block w-full max-w-screen-lg p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl"
             >
               <DialogTitle
                 as="h3"
@@ -39,69 +39,66 @@
               </DialogTitle>
               <div class="mt-8">
                 <p
-                  class="font-mono text-xs text-gray-500 md:text-sm dark:text-gray-500"
+                  class="my-6 font-mono text-xs text-gray-600 md:text-sm dark:text-gray-600"
                 >
-                  -
-                  <a class="p-1" target="_blank" href="https://www.bilgi.edu.tr"
-                    >bilgi.edu.tr</a
-                  ><br />
-                  -
-                  <a
-                    target="_blank"
-                    class="p-1"
-                    href="https://aday.bilgi.edu.tr"
-                    >aday.bilgi.edu.tr</a
-                  ><br />
-                  -
-                  <a class="p-1" target="_blank" href="https://asu.bilgi.edu.tr"
-                    >asu.bilgi.edu.tr</a
-                  ><br />
-                  -
-                  <a class="p-1" target="_blank" href="https://alt.bilgi.edu.tr"
-                    >alt.bilgi.edu.tr</a
-                  ><br />
-                  -
-                  <a class="p-1" target="_blank" href="https://mag.bilgi.edu.tr"
-                    >mag.bilgi.edu.tr</a
-                  ><br />
-                  -
-                  <a class="p-1" target="_blank" href="https://curiousgames.io"
-                    >curiousgames.io</a
-                  ><br />
-                  -
-                  <a
-                    target="_blank"
-                    class="p-1"
-                    href="https://flammbodrum.vercel.app"
-                    >flammbodrum.vercel.app</a
-                  >*<br />
-                  -
-                  <a
-                    target="_blank"
-                    class="p-1"
-                    href="https://journeycihangir.com"
-                    >journeycihangir.com</a
-                  ><br />
-                  -
-                  <a class="p-1" target="_blank" href="https://myela.com.tr"
-                    >myela.com.tr</a
-                  ><br />
-                  -
-                  <a class="p-1" target="_blank" href="http://dalin.com"
-                    >dalin.com</a
-                  ><br />
-                  -
-                  <a
-                    target="_blank"
-                    class="p-1"
-                    href="https://lovestreamfestival.github.io"
-                    >lovestreamfestival.github.io</a
-                  >*<br />
-                  -
-                  <a class="p-1" target="_blank" href="https://groovypedia.com"
-                    >groovypedia.com</a
-                  >
+                  WEB DESIGN & CODE
                 </p>
+
+                <div class="inline-block">
+                  <img src="/works/web/bilgi/01.png" class="w-80" />
+                </div>
+                <div class="inline-block">
+                  <img src="/works/web/aday-bilgi/01.png" class="w-80" />
+                </div>
+                <div class="inline-block">
+                  <img src="/works/web/alt-bilgi/01.png" class="w-80" />
+                </div>
+                <div class="inline-block">
+                  <img src="/works/web/asu-bilgi/01.png" class="w-80" />
+                </div>
+                <div class="inline-block">
+                  <img src="/works/web/mag-bilgi/01.png" class="w-80" />
+                </div>
+                <div class="inline-block">
+                  <img src="/works/web/curiousgames/01.png" class="w-80" />
+                </div>
+                <div class="inline-block">
+                  <img src="/works/web/dalin/01.png" class="w-80" />
+                </div>
+                <div class="inline-block">
+                  <img src="/works/web/groovypedia/01.png" class="w-80" />
+                </div>
+                <div class="inline-block">
+                  <img src="/works/web/journeycihangir/01.png" class="w-80" />
+                </div>
+                <div class="inline-block">
+                  <img src="/works/web/myela/01.png" class="w-80" />
+                </div>
+
+                <p
+                  class="my-6 font-mono text-xs text-gray-600 md:text-sm dark:text-gray-600"
+                >
+                  CORPORATE IDENTITY & LOGO DESIGN
+                </p>
+                <div class="inline-block">
+                  <img src="/works/logo/ada-pansiyon/02.jpg" class="w-80" />
+                </div>
+                <div class="inline-block">
+                  <img src="/works/logo/concerts-east/01.png" class="w-80" />
+                </div>
+
+                <div class="inline-block">
+                  <img src="/works/logo/minik-petshop/03.jpg" class="w-80" />
+                </div>
+                <div class="inline-block">
+                  <img src="/works/logo/panda-anaokul/02.jpg" class="w-80" />
+                </div>
+                <div class="inline-block">
+                  <img src="/works/logo/solar-power/03.jpg" class="w-80" />
+                </div>
+                <div class="inline-block">
+                  <img src="/works/logo/zen-garden-yoga/02.jpg" class="w-80" />
+                </div>
               </div>
 
               <div class="mt-8">
