@@ -1,4 +1,14 @@
 {
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"],
   "include": ["./src/**/*"],
   "vueCompilerOptions": { "experimentalDisableTemplateSupport": true }
 }
