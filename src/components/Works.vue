@@ -43,7 +43,29 @@
                 >
                   WEB DESIGN & CODE
                 </p>
-
+                <div class="relative inline-block group w-80">
+                  <img
+                    class="object-cover w-full"
+                    src="/works/web/bilgi/01.png"
+                  />
+                  <div
+                    class="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-0 px-8 -mt-1 text-center duration-300 rounded-md opacity-0 group-hover:pb-10 bg-dotyellow group-hover:h-full group-hover:opacity-90 font-titillium"
+                  >
+                    <h1 class="text-2xl">
+                      İstanbul Bilgi University
+                    </h1>
+                    <code class="mt-4 text-sm"
+                      >html, scss, jquery, bootstrap, django</code
+                    >
+                    <p class="mt-8">
+                      <a
+                        class="font-mono text-sm font-semibold text-black"
+                        href="#"
+                        >https://bilgi.edu.tr</a
+                      >
+                    </p>
+                  </div>
+                </div>
                 <div class="inline-block">
                   <img src="/works/web/bilgi/01.png" class="w-80" />
                 </div>
