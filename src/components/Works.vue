@@ -42,7 +42,9 @@
                   class="my-6 font-mono text-sm text-gray-600 md:text-sm dark:text-gray-600"
                 >
                   WEB DESIGN & CODE
-                  <span class="block text-xs">Hover for detail</span>
+                  <span class="block text-xs"
+                    >Hover for detail<br />*: Under construction</span
+                  >
                 </p>
                 <div
                   v-for="(site, i) in sites"
@@ -177,10 +179,10 @@
             url: "http://dalin.com"
           },
           {
-            name: "Flamm Bodrum Hotel",
+            name: "Flamm Bodrum Hotel *",
             photo: "/works/web/flamm/01.png",
             tag: "html, scss, tailwind, vuejs",
-            url: "http://dalin.com"
+            url: "https://flammbodrum.vercel.app/"
           },
           {
             name: "Groovypedia",
