@@ -178,7 +178,7 @@
           },
           {
             name: "Flamm Bodrum Hotel",
-            photo: "/works/web/dalin/01.png",
+            photo: "/works/web/flamm/01.png",
             tag: "html, scss, tailwind, vuejs",
             url: "http://dalin.com"
           },
