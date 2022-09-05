@@ -39,62 +39,34 @@
               </DialogTitle>
               <div class="mt-8">
                 <p
-                  class="my-6 font-mono text-xs text-gray-600 md:text-sm dark:text-gray-600"
+                  class="my-6 font-mono text-sm text-gray-600 md:text-sm dark:text-gray-600"
                 >
                   WEB DESIGN & CODE
+                  <span class="block text-xs">Hover for detail</span>
                 </p>
-                <div class="relative inline-block group w-80">
-                  <img
-                    class="object-cover w-full"
-                    src="/works/web/bilgi/01.png"
-                  />
+                <div
+                  v-for="(site, i) in sites"
+                  :key="site.i"
+                  class="relative inline-block group w-80"
+                >
+                  <img class="object-cover w-full" :src="site.photo" />
                   <div
                     class="absolute top-0 left-0 flex flex-col items-center justify-center w-full h-0 px-8 -mt-1 text-center duration-300 rounded-md opacity-0 group-hover:pb-10 bg-dotyellow group-hover:h-full group-hover:opacity-90 font-titillium"
                   >
                     <h1 class="text-2xl">
-                      İstanbul Bilgi University
+                      {{ site.name }}
                     </h1>
-                    <code class="mt-4 text-sm"
-                      >html, scss, jquery, bootstrap, django</code
-                    >
+                    <p></p>
+                    <code class="mt-4 text-sm"> {{ site.tag }}</code>
                     <p class="mt-8">
                       <a
                         class="font-mono text-sm font-semibold text-black"
-                        href="#"
-                        >https://bilgi.edu.tr</a
+                        :href="site.url"
+                        target="_blank"
+                        >{{ site.url }}</a
                       >
                     </p>
                   </div>
-                </div>
-                <div class="inline-block">
-                  <img src="/works/web/bilgi/01.png" class="w-80" />
-                </div>
-                <div class="inline-block">
-                  <img src="/works/web/aday-bilgi/01.png" class="w-80" />
-                </div>
-                <div class="inline-block">
-                  <img src="/works/web/alt-bilgi/01.png" class="w-80" />
-                </div>
-                <div class="inline-block">
-                  <img src="/works/web/asu-bilgi/01.png" class="w-80" />
-                </div>
-                <div class="inline-block">
-                  <img src="/works/web/mag-bilgi/01.png" class="w-80" />
-                </div>
-                <div class="inline-block">
-                  <img src="/works/web/curiousgames/01.png" class="w-80" />
-                </div>
-                <div class="inline-block">
-                  <img src="/works/web/dalin/01.png" class="w-80" />
-                </div>
-                <div class="inline-block">
-                  <img src="/works/web/groovypedia/01.png" class="w-80" />
-                </div>
-                <div class="inline-block">
-                  <img src="/works/web/journeycihangir/01.png" class="w-80" />
-                </div>
-                <div class="inline-block">
-                  <img src="/works/web/myela/01.png" class="w-80" />
                 </div>
 
                 <p
@@ -102,24 +74,12 @@
                 >
                   CORPORATE IDENTITY & LOGO DESIGN
                 </p>
-                <div class="inline-block">
-                  <img src="/works/logo/ada-pansiyon/02.jpg" class="w-80" />
-                </div>
-                <div class="inline-block">
-                  <img src="/works/logo/concerts-east/01.png" class="w-80" />
-                </div>
-
-                <div class="inline-block">
-                  <img src="/works/logo/minik-petshop/03.jpg" class="w-80" />
-                </div>
-                <div class="inline-block">
-                  <img src="/works/logo/panda-anaokul/02.jpg" class="w-80" />
-                </div>
-                <div class="inline-block">
-                  <img src="/works/logo/solar-power/03.jpg" class="w-80" />
-                </div>
-                <div class="inline-block">
-                  <img src="/works/logo/zen-garden-yoga/02.jpg" class="w-80" />
+                <div
+                  class="inline-block"
+                  v-for="(logo, i) in logos"
+                  :key="logo.i"
+                >
+                  <img :src="logo.photo" :alt="logo.name" class="w-80" />
                 </div>
               </div>
 
@@ -149,6 +109,7 @@
     DialogOverlay,
     DialogTitle
   } from "@headlessui/vue";
+
   export default {
     components: {
       TransitionRoot,
@@ -168,6 +129,98 @@
         openModal() {
           isOpen.value = true;
         }
+      };
+    },
+    data() {
+      return {
+        sites: [
+          {
+            name: "Istanbul Bilgi University",
+            photo: "/works/web/bilgi/01.png",
+            tag: "html, scss, jquery, bootstrap, django",
+            url: "https://www.bilgi.edu.tr"
+          },
+          {
+            name: "IBU Prospective Students",
+            photo: "/works/web/aday-bilgi/01.png",
+            tag: "html, scss, jquery, bootstrap, django",
+            url: "https://aday.bilgi.edu.tr"
+          },
+          {
+            name: "Alt Lab",
+            photo: "/works/web/alt-bilgi/01.png",
+            tag: "html, scss, jquery, bootstrap, django",
+            url: "https://alt.bilgi.edu.tr"
+          },
+          {
+            name: "ASU - BİLGİ",
+            photo: "/works/web/asu-bilgi/01.png",
+            tag: "html, scss, jquery, bootstrap, django",
+            url: "https://asu.bilgi.edu.tr"
+          },
+          {
+            name: "MAG - BİLGİ",
+            photo: "/works/web/mag-bilgi/01.png",
+            tag: "html, scss, jquery, bootstrap, django",
+            url: "https://mag.bilgi.edu.tr"
+          },
+          {
+            name: "Curious Games",
+            photo: "/works/web/curiousgames/02.png",
+            tag: "html, scss, tailwind, vuejs",
+            url: "https://curiousgames.io"
+          },
+          {
+            name: "Dalin",
+            photo: "/works/web/dalin/01.png",
+            tag: "html, scss, jquery, bootstrap, django",
+            url: "http://dalin.com"
+          },
+          {
+            name: "Groovypedia",
+            photo: "/works/web/groovypedia/01.png",
+            tag: "html, scss, jquery, bootstrap",
+            url: "http://groovypedia.com"
+          },
+          {
+            name: "Journey Cihangir",
+            photo: "/works/web/journeycihangir/01.png",
+            tag: "html, scss, jquery, bootstrap, django",
+            url: "http://journeycihangir.com"
+          },
+          {
+            name: "MyEla",
+            photo: "/works/web/myela/01.png",
+            tag: "html, scss, jquery, bootstrap",
+            url: "https://myela.com.tr"
+          }
+        ],
+        logos: [
+          {
+            name: "Ada Pansiyon",
+            photo: "/works/logo/ada-pansiyon/02.jpg"
+          },
+          {
+            name: "Concerts East",
+            photo: "/works/logo/concerts-east/01.png"
+          },
+          {
+            name: "Minik Petshop",
+            photo: "/works/logo/minik-petshop/03.jpg"
+          },
+          {
+            name: "Panda Anaokul",
+            photo: "/works/logo/panda-anaokul/02.jpg"
+          },
+          {
+            name: "Solar Power",
+            photo: "/works/logo/solar-power/03.jpg"
+          },
+          {
+            name: "Zen Garden Yoga",
+            photo: "/works/logo/zen-garden-yoga/02.jpg"
+          }
+        ]
       };
     },
     mounted() {
