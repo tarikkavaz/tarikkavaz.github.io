@@ -177,6 +177,12 @@
             url: "http://dalin.com"
           },
           {
+            name: "Flamm Bodrum Hotel",
+            photo: "/works/web/dalin/01.png",
+            tag: "html, scss, tailwind, vuejs",
+            url: "http://dalin.com"
+          },
+          {
             name: "Groovypedia",
             photo: "/works/web/groovypedia/01.png",
             tag: "html, scss, jquery, bootstrap",
@@ -187,6 +193,12 @@
             photo: "/works/web/journeycihangir/01.png",
             tag: "html, scss, jquery, bootstrap, django",
             url: "http://journeycihangir.com"
+          },
+          {
+            name: "Love Steam Festival *",
+            photo: "/works/web/lovestream/01.png",
+            tag: "html, scss, jquery, bootstrap",
+            url: "https://lovestreamfestival.github.io/"
           },
           {
             name: "MyEla",
