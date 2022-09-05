@@ -42,11 +42,9 @@
                   class="my-6 font-mono text-sm text-gray-600 md:text-sm dark:text-gray-600"
                 >
                   WEB DESIGN & CODE
-                  <span class="block text-xs"
-                    >Hover for detail<br />*: Under construction</span
-                  >
+                  <span class="block text-xs">* Under construction</span>
                 </p>
-                <div
+                <!-- <div
                   v-for="(site, i) in sites"
                   :key="site.i"
                   class="relative inline-block group w-80"
@@ -69,8 +67,31 @@
                       >
                     </p>
                   </div>
+                </div> -->
+                <div
+                  class="inline-block mb-6 align-top"
+                  v-for="(site, i) in sites"
+                  :key="site.i"
+                >
+                  <img :src="site.photo" :alt="site.name" class="w-80" />
+                  <div class="ml-6 w-72">
+                    <p
+                      class="text-lg font-semibold text-gray-900 dark:text-gray-900"
+                    >
+                      {{ site.name }}
+                    </p>
+                    <p>
+                      <a
+                        class="font-mono text-sm font-semibold text-black"
+                        :href="site.url"
+                        target="_blank"
+                        >{{ site.url }}</a
+                      >
+                    </p>
+                    <code class="mt-4 text-xs"> {{ site.tag }}</code>
+                  </div>
                 </div>
-
+                <hr class="mt-6" />
                 <p
                   class="my-6 font-mono text-xs text-gray-600 md:text-sm dark:text-gray-600"
                 >
