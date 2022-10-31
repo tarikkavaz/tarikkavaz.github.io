@@ -40,7 +40,7 @@
               <div class="mt-8">
                 <p
                   class="my-2 font-mono text-sm text-gray-700 dark:text-gray-700"
-                >
+                > TARIK RECEP KAVAZ<br />
                   GARANTI BBVA - CAGLAYAN ISTANBUL
                 </p>
                 <p
