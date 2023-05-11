@@ -51,8 +51,8 @@
       <h2 class="text-xl text-gray-500 transition duration-700 ease-in-out sm:text-3xl dark:text-gray-100">Designer & Coder</h2>
     </div>
     <div class="z-50 flex items-center justify-center h-full col-span-2 mt-5 md:col-span-1 md:mt-0">
-      <div class="grid justify-end grid-cols-4 gap-6">
-        <div class="h-12 col-span-4">
+      <div class="grid grid-cols-8 gap-x-4 md:gap-x-6 gap-y-1">
+        <div class="h-12 col-span-8">
           <div class="grid justify-end">
             <ButtonWithTooltip v-if="!isMobile()"
             location="left" 
@@ -92,6 +92,19 @@
             ></path>
           </svg>
         </ButtonWithTooltip>
+        <ButtonWithTooltip location="bottom" link="https://www.upwork.com/freelancers/~01cfda6cbcce8badfa" linkTarget="_blank" tooptip="Upwork"> 
+          <svg 
+          aria-hidden="true"
+          class="icon"
+          viewBox="0 0 54 54" 
+          xmlns="http://www.w3.org/2000/svg"
+          >
+          <g class="fill-current">
+            <path d="M38.8,24.6c-2.8,0-3.7,2.7-3.9,4.3v0.1l-0.4,1.5c1.2,1,2.7,1.7,4.2,1.7c2,0,3.8-1.7,3.9-3.9C42.6,26.3,40.9,24.6,38.8,24.6   z"/>
+            <path d="M28.9,3.7C15.2,3.7,4.1,14.8,4.1,28.5c0,13.7,11.1,24.8,24.8,24.8c13.7,0,24.8-11.1,24.8-24.8C53.7,14.8,42.6,3.7,28.9,3.7   z M38.8,36.1c-2,0-3.7-0.6-5.2-1.5l-1.7,8H28l2.4-11c-1-1.4-2-3-2.7-4.5v1.7c0,4.1-3.3,7.4-7.3,7.4c-4,0-7.3-3.3-7.3-7.4v-10h3.8   v10c0,2,1.6,3.6,3.6,3.6c2,0,3.6-1.6,3.6-3.6v-10h3.8c0.8,2.5,2.1,5.5,3.8,8.2c1-3.8,3.8-6.1,7.3-6.1c4.1,0,7.5,3.4,7.5,7.5   C46.3,32.7,42.9,36.1,38.8,36.1z"/>
+          </g>
+        </svg>
+        </ButtonWithTooltip>
         <ButtonWithTooltip location="bottom" link="https://github.com/tarikkavaz" linkTarget="_blank" tooptip="GitHub"> 
           <svg
             aria-hidden="true"
@@ -119,20 +132,7 @@
               d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
             ></path>
           </svg>
-        </ButtonWithTooltip>
-        <ButtonWithTooltip location="bottom" link="https://www.upwork.com/freelancers/~01cfda6cbcce8badfa" linkTarget="_blank" tooptip="Upwork"> 
-          <svg 
-          aria-hidden="true"
-          class="icon"
-          viewBox="0 0 54 54" 
-          xmlns="http://www.w3.org/2000/svg"
-          >
-          <g class="fill-current">
-            <path d="M38.8,24.6c-2.8,0-3.7,2.7-3.9,4.3v0.1l-0.4,1.5c1.2,1,2.7,1.7,4.2,1.7c2,0,3.8-1.7,3.9-3.9C42.6,26.3,40.9,24.6,38.8,24.6   z"/>
-            <path d="M28.9,3.7C15.2,3.7,4.1,14.8,4.1,28.5c0,13.7,11.1,24.8,24.8,24.8c13.7,0,24.8-11.1,24.8-24.8C53.7,14.8,42.6,3.7,28.9,3.7   z M38.8,36.1c-2,0-3.7-0.6-5.2-1.5l-1.7,8H28l2.4-11c-1-1.4-2-3-2.7-4.5v1.7c0,4.1-3.3,7.4-7.3,7.4c-4,0-7.3-3.3-7.3-7.4v-10h3.8   v10c0,2,1.6,3.6,3.6,3.6c2,0,3.6-1.6,3.6-3.6v-10h3.8c0.8,2.5,2.1,5.5,3.8,8.2c1-3.8,3.8-6.1,7.3-6.1c4.1,0,7.5,3.4,7.5,7.5   C46.3,32.7,42.9,36.1,38.8,36.1z"/>
-          </g>
-        </svg>
-        </ButtonWithTooltip>
+        </ButtonWithTooltip> 
         <ButtonWithTooltip location="bottom" link="https://twitter.com/tarikkavaz" linkTarget="_blank" tooptip="Twitter"> 
           <svg
             aria-hidden="true"
