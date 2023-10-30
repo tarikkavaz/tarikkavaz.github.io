@@ -30,6 +30,6 @@
     @apply mx-2;
   }
   .icon {
-    @apply grayscale hover:grayscale-0 min-h-full min-h-full;
+    @apply grayscale hover:grayscale-0 min-h-full;
   }
 </style>
