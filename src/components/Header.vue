@@ -133,7 +133,7 @@
             ></path>
           </svg>
         </ButtonWithTooltip> 
-        <!-- <ButtonWithTooltip location="bottom" link="https://twitter.com/tarikkavaz" linkTarget="_blank" tooptip="Twitter"> 
+
           <svg
             aria-hidden="true"
             class="icon"
