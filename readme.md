@@ -3,19 +3,25 @@
 ## Project setup
 
 ```
-npm install
+yarn
 ```
 
 ### Compiles and hot-reloads for development
 
 ```
-npm run serve
+yarn serve
 ```
 
 ### Compiles and minifies for production
 
 ```
-npm run build
+yarn build
+```
+
+### Deploy to Github Pages
+
+```
+yarn deploy
 ```
 
 ![Splash](https://raw.githubusercontent.com/tarikkavaz/tarikkavaz.github.io/master/public/tarikkavaz.jpg)
