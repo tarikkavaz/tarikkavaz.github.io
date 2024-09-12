@@ -10,22 +10,22 @@
     "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
-    "@headlessui/vue": "^1.4.7",
-    "core-js": "^3.31.1",
-    "sass": "^1.66.1",
-    "sass-loader": "^13.3.2",
+    "@headlessui/vue": "^1.4.1",
+    "core-js": "^3.6.5",
+    "sass": "^1.78.0",
+    "sass-loader": "^10.1.1",
     "skrollr": "^0.6.26",
     "smoothscroll-polyfill": "^0.4.4",
-    "vue": "^3.3.4",
-    "vue-tippy": "^6.1.0"
+    "vue": "^3.0.0",
+    "vue-tippy": "^6.0.0-alpha.32"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^5.0.8",
-    "@vue/cli-plugin-router": "^5.0.8",
-    "@vue/cli-service": "^5.0.8",
-    "@vue/compiler-sfc": "^3.3.4",
-    "autoprefixer": "^10.4.15",
-    "postcss": "^8.4.26",
-    "tailwindcss": "^3.3.2"
+    "@vue/cli-plugin-babel": "~5.0.8",
+    "@vue/cli-plugin-router": "~5.0.8",
+    "@vue/cli-service": "~5.0.8",
+    "@vue/compiler-sfc": "^3.0.0",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7"
   }
 }
