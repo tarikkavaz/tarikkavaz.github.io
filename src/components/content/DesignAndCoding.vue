@@ -26,13 +26,7 @@
           <span class="tag">vue.js</span>
           <span class="tag">nuxt.js</span>
           <span class="tag">electron.js</span>
-          <span class="tag">jQuery</span>
-          <span class="tag">Middleman</span>
-        </li>
-        <li class="ml-5">
-          Web Template Engines
-          <span class="tag">Django</span>
-          <span class="tag">Middleman</span>
+          <span class="tag">next.js</span>
         </li>
       </ul>
     </li>

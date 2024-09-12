@@ -51,8 +51,8 @@
       <h2 class="text-xl text-gray-500 transition duration-700 ease-in-out sm:text-3xl dark:text-gray-100">Designer & Coder</h2>
     </div>
     <div class="z-50 flex items-center justify-center h-full col-span-2 mt-5 md:col-span-1 md:mt-0">
-      <div class="grid grid-cols-3 gap-x-4 md:gap-x-6 gap-y-1">
-        <div class="h-12 col-span-3">
+      <div class="grid grid-cols-4 gap-x-4 md:gap-x-6 gap-y-1">
+        <div class="h-12 col-span-4">
           <div class="grid justify-end">
             <ButtonWithTooltip v-if="!isMobile()"
             location="left" 
@@ -119,7 +119,7 @@
             ></path>
           </svg>
         </ButtonWithTooltip>
-        <!-- <ButtonWithTooltip location="bottom" link="https://www.linkedin.com/in/tarikkavaz" linkTarget="_blank" tooptip="Linkedin"> 
+        <ButtonWithTooltip location="bottom" link="https://www.linkedin.com/in/tarikkavaz" linkTarget="_blank" tooptip="Linkedin"> 
           <svg
             aria-hidden="true"
             class="icon"
@@ -132,7 +132,7 @@
               d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
             ></path>
           </svg>
-        </ButtonWithTooltip>  -->
+        </ButtonWithTooltip> 
         <!-- <ButtonWithTooltip location="bottom" link="https://twitter.com/tarikkavaz" linkTarget="_blank" tooptip="Twitter"> 
           <svg
             aria-hidden="true"

@@ -3,16 +3,16 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "404": "rm -rf dist/404.html && cp dist/index.html dist/404.html",
     "serve": "vue-cli-service serve",
     "dev": "vue-cli-service serve",
-    "404": "rm -rf dist/404.html && cp dist/index.html dist/404.html",
     "build": "vue-cli-service build && npm run --silent 404",
     "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "@headlessui/vue": "^1.4.1",
     "core-js": "^3.6.5",
-    "node-sass": "^7.0.0",
+    "sass": "^1.78.0",
     "sass-loader": "^10.1.1",
     "skrollr": "^0.6.26",
     "smoothscroll-polyfill": "^0.4.4",
